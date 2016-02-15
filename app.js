@@ -20,8 +20,10 @@ function sumAndMultiply(num1, num2, num3) {
 };
 
 function sumArray(array1) {
-  ansProbFour = 0;
-  for(var i = 0; i < array1.length; ansProbFour += array1[i++]);
+  var ansProbFour = 0;
+  for(var i = 0; i < array1.length; i++) {
+    ansProbFour += array1[i];
+  }
   console.table(array1);
   console.log(array1 + ' was passed in as an array of numbers, and ' + ansProbFour + ' is their sum.');
   return ansProbFour;
