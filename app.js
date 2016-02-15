@@ -28,3 +28,13 @@ function sumArray(array1) {
   console.log(array1 + ' was passed in as an array of numbers, and ' + ansProbFour + ' is their sum.');
   return ansProbFour;
 };
+
+function multiplyArray() {
+  var ansProbFive = 1;
+  for(var i = 0; i < array1.length; i++) {
+    ansProbFive *= array1[i];
+  }
+  console.table(array1);
+  console.log(array1 + ' was passed in as an array of numbers, and ' + ansProbFive + ' is their product.');
+  return ansProbFive;
+}
