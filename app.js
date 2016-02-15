@@ -6,4 +6,4 @@ function sum() {
 function multiply() {
   var ansProbTwo = (4 * 7);
   console.log('The product of 4 and 7 is: ' + ansProbTwo);
-}; 
+};
